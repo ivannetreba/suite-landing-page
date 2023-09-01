@@ -102,14 +102,6 @@ a {
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  
-}
-
-@media screen and (min-width: 1110px) {
-  
-}
-
 
 /* Buttons */
 
@@ -132,11 +124,11 @@ a {
 
 .btn--light {
   background: transparent;
+  border: 1px solid var(--color-primary);
   color: var(--color-primary);
   font-size: 1.6rem;
   letter-spacing: -0.16px;
   padding: 1.2rem 2.4rem;
-  border: 1px solid var(--color-primary);
 }
 
 .btn--light:hover {
@@ -159,14 +151,21 @@ a {
 
 .indicator {
   color: var(--color-secondary);
-  text-align: center;
   font-size: 1.6rem;
   letter-spacing: 2.5px;
+  text-align: center;
 }
 
-.indicator__value {
+.indicator__strong {
   color: var(--color-primary);
   font-size: 4.8rem;
+  font-weight: 700;
+}
+
+
+/* Strong */
+
+.strong {
   font-weight: 700;
 }
 
@@ -178,5 +177,14 @@ a {
 3. How many variables use?
 4. How to write classes?
 5. Watch video about creating navbar.
+
+
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1110px) {
+  
+}
 
 */
