@@ -115,13 +115,19 @@ a {
   background: var(--color-primary);
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+
 
 /* Buttons */
 
 .btn {
   border-radius: 6px;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -178,6 +184,7 @@ a {
   font-size: 1.6rem;
   letter-spacing: 2.5px;
   text-align: center;
+  margin: 1.6rem 0;
 }
 
 .indicator__strong {
@@ -208,11 +215,79 @@ a {
   height: 3.2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 4rem 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 5rem 0;
+  }
+}
+
+
+/* Main */
+
+.main {
+  display: grid;
+  justify-content: center;
+  max-width: 34.3rem;
+  margin: 3.2rem auto;
+}
+
+.main__description {
+}
+
+.main__line {
+  width: 15.1rem;
+  height: 1.9rem;
+  position: relative;
+  left: 15rem;
+}
+
+.main__heading {
+  font-size: 3.8rem;
+  letter-spacing: -0.528px;
+  line-height: 116%;
+  margin: 0.8rem 0 1.6rem;
+}
+
+.main__text {
+  color: var(--color-secondary);
+  font-size: 1.6rem;
+  line-height: 175%;
+  letter-spacing: 0.089px;
+  margin: 1.6rem 0;
+}
+
+.main__btn {
+  margin: 1.6rem 0;
+}
+
+.main__image {
+  margin: 4rem 0;
+}
+
+.main__indicators {
+
+}
+
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1440px) {
+  
+}
 
 /* 
 
+delete extra images
+
 1. ^Choose normilize css or andy bell css reset?
-2. Top-down or Down-top approch? Watch some video which demonstrate web development.
+2. ^Top-down or Down-top approch? Watch some video which demonstrate web development.
 3. How many variables use?
 4. How to write classes?
 5. Watch video about creating navbar.
@@ -225,7 +300,7 @@ https://youtu.be/srzsj3xtHMM?si=ubtzw1CzaYiPHdJ4
   
 }
 
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1440px) {
   
 }
 
