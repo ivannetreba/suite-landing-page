@@ -380,6 +380,69 @@ a {
 }
 
 
+/* Testimonial block */
+
+.testimonail {
+  background: var(--color-primary);
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: 221px auto auto;
+  justify-items: center;
+}
+
+.testimonail__image {
+  transform: translateY(-87px);
+}
+
+.testimonial__line {
+  width: 4.9rem;
+  height: 4rem;
+  margin-top: 4rem;
+}
+
+.testimonail__heading {
+  color: var(--color-bg);
+  font-size: 4rem;
+  letter-spacing: -0.417px;
+  text-align: center;
+  margin: 3.7rem 0 4rem;
+}
+
+.testimonail__quote {
+  color: var(--color-bg-2);
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 0.09px;
+  margin-bottom: 4rem;
+}
+
+.testimonail__author {
+  color: var(--color-bg);
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+}
+
+.testimonail__job-title {
+  color: var(--color-bg-2);
+  font-size: 1.6rem;
+  letter-spacing: 2.5px;
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+
+
+
+
 /* 
 write all wituation and values with grid and study
 delete extra images
@@ -404,6 +467,7 @@ https://youtu.be/srzsj3xtHMM?si=ubtzw1CzaYiPHdJ4
 
 */
 /*
+Play with these contructions
 
 .grid-container {
     display: grid;

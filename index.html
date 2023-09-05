@@ -6,7 +6,48 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  
+<body style="padding: 300px 0;">
+  <div class="block--light">
+    <section class="container">
+      <div class="testimonail">
+          <picture class="testimonail__image">
+            <source media="(min-width: 1024px)"
+              type="image/webp"
+              srcset="images/image-jeremy-large.webp 1x, images/image-jeremy-large@2x.webp 2x">
+            <source media="(min-width: 1024px)"
+              type="image/png"
+              srcset="images/image-jeremy-large.png 1x, images/image-jeremy-large@2x.png 2x">
+            <!-- Images for mobile -->
+            <source 
+              type="image/webp"
+              srcset="images/image-jeremy-small.webp 1x, images/image-jeremy-small@2x.webp 2x">
+            <source 
+              type="image/png"
+              srcset="images/image-jeremy-small.png 1x, images/image-jeremy-small@2x.png 2x">
+            <img class="testimonail__image" src="images/image-jeremy-small.png" alt="Jeremy photo">
+          </picture>
+        <div>
+          <svg class="testimonial__line">
+            <use xlink:href="images/sprite.svg#pattern-curved-line-2"></use>
+          </svg>
+        </div>
+        <div>
+          <h2 class="testimonail__heading">
+            It just <span class="strong">works.</span>
+          </h2>
+          <p class="testimonail__quote">
+            “I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker.”
+          </p>
+          <p class="testimonail__author">
+            JEREMY ROBINSON
+          </p>
+          <p class="testimonail__job-title">
+            CMO, FYLO
+          </p>
+        </div>
+        
+      </div>
+    </section>
+  </div>
 </body>
 </html>
