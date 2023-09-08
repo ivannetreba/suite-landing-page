@@ -344,7 +344,7 @@ a {
   }
 
   .main__text {
-    padding: 2.6rem 0;
+    padding: 2rem 0 2.6rem;
     font-size: 1.8rem;
     letter-spacing: 0.1px;
   }
